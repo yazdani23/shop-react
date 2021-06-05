@@ -30,13 +30,13 @@ function App() {
         <Header />
 
         <Switch>
-          <Route exact path="https://yazdani23.github.io/react-shop/home" component={Home} />
+          <Route exact path="https://yazdani23.github.io//shop-react/home" component={Home} />
              
-          <Route path="https://yazdani23.github.io/react-shop/login">
+          <Route path="https://yazdani23.github.io//shop-react/login">
               <Login />
           </Route>
 
-          <Route path="https://yazdani23.github.io/react-shop/check-out">
+          <Route path="https://yazdani23.github.io//shop-react/check-out">
               <CheckOut />
           </Route>
 
