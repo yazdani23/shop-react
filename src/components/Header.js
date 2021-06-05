@@ -7,9 +7,9 @@ function Header(props){
           <Navbar.Brand href="/home">Navbar</Navbar.Brand>
             <Nav className="mr-auto">
                 <Link to="/check-out">check out</Link>
-                <Nav.Link href="/home">Home</Nav.Link>
-                <Nav.Link href="/login">Login</Nav.Link>
-                <Nav.Link href="/pricing">Pricing</Nav.Link>
+                <Link to="/home">Home</Link>
+                <Link to="/login">Login</Link>
+                <Link to="/pricing">Pricing</Link>
             </Nav>
             <Form inline className="d-flex">
                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />
